@@ -1,6 +1,6 @@
 .encabezado {
-    background-color: rgb(148, 56, 234);
-    height: 400px;
+    background-image: linear-gradient(to bottom, rgb(59, 21, 94), rgb(241, 90, 156));
+    height: 350px;
     position: relative;
 }
 .logo {
@@ -9,6 +9,11 @@
     font-family: sans-serif;
     margin-bottom: 30px ;
     text-align: center;
+}
+.encabezado #subtitulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px rgb(232, 108, 161);
 }
 .logo img {
     max-width: 2500px;
@@ -64,15 +69,15 @@ transform: translateX(-100%);
 }
 }
 
-h1 {
+#logof {
 animation: deslizar 15s linear infinite;
 animation-delay: 0s;
 color: black;
 -webkit-text-stroke:2px #ed04ca ;
 font-family: fantasy;
-font-size: 30rem;
+font-size: 6rem;
 position: absolute;
-top: -300px;
+top: -60px;
 white-space: nowrap ;
 
 }
@@ -80,6 +85,28 @@ white-space: nowrap ;
     position: relative;
 }
 .hero img{
-    width:100%;
+    width:70%;
     height:auto;
+    display: block;
+    margin: auto;
+}
+
+#fondito{
+    background-image: url(fondo1.jpg);
+    background-size:cover;
+}
+
+h1{
+    color:#b15cf7;
+    text-align: center;
+    text-shadow: 3px 1px #000000;
+}
+
+#competencia-texto{
+    text-align: center;
+    font-size: 30px;
+}
+#igm{
+    border-style: solid;
+    border-color: #b15cf7;
 }

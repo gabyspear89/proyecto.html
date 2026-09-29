@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body id="fondito">
 
     <header class="encabezado">
 
@@ -21,7 +21,7 @@
         <div>
         <img src="titulonav.jpg" alt="la cosa del otro mundo">
         </div>
-        <span>Escuela de danzas</span>
+        <span id="subtitulo">Escuela de danzas</span>
         </div>
 
         <nav class="encabezado_nav">
@@ -37,12 +37,26 @@
     <main>
 
         <section id="inicio" class="hero">
-            <img src="equipo.jpg" alt="equipo">
+            
+            <script>
+                function cambio(sw){                    
+                  if(sw == false){
+                        pic = "fondo.jpg"
+                    }else{
+                        pic ="equipo.jpg"
+                    }                    
+                    document.getElementById('igm').src = pic;                    
+                }
+            </script>
 
-            <h1>
+        <img id="igm" onclick="cambio(false)" src="equipo.jpg" alt="equipo">
+
+            <h1 id="logof">
                 Expresate a través del movimiento, ritmo y la pasión.
             </h1>
+            
 
+        
             <hr>
 <hr>
             <footer>
