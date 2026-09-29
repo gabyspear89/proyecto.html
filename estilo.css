@@ -1,0 +1,57 @@
+.encabezado {
+    background-color: rgb(148, 56, 234);
+    height: 400px;
+    position: relative;
+}
+.logo {
+    font-size: 35px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 30px ;
+    text-align: center;
+}
+.logo img {
+    max-width: 2500px;
+    display: inline;
+    margin-top: 10px;
+}
+.encabezado_nav {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.encabezado_nav a {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(232, 108, 161);
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+
+.contacto img  {
+    height:auto;
+    width: 30px;
+}
+
+#tabla {
+  margin: 0 auto; 
+  width: 80%; 
+}
+
+#tabla th {
+  background-color: #ed04ca;
+  color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 12px 8px;
+  border: 1px solid #ddd;
+}
+
+#tabla td {
+background-color: #eeabe4;
+  text-align: center;
+  padding: 10px 8px;
+  border: 1px solid #ddd; 
+}

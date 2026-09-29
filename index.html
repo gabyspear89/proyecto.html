@@ -9,49 +9,28 @@
 
     <meta name="description" content="Escuela de danzas La cosa del otro mundo">
     <title>La cosa del otro mundo | Escuela de Danzas</title>
-    
-    <!--Esto de aca lo dejo porque todavia no tenemos el archivo de CSS-->
-
-    <style> 
-        body{
-            background-color: rgb(163, 64, 64);
-        }
-        nav {
-            background-color: rgb(73, 18, 18);
-        }
-
-        span{
-            font-size: larger;
-        }
-        .logo{
-            text-align: center;
-        }
-        #inicio{
-            text-align: center;
-        }
-    </style>
-
-    <!--Desde aca hasta el comentario de arriba podemos borrar despues, es para que no se vea feo-->
-
     <link rel="stylesheet" href="estilo.css">
 
 </head>
 
 <body>
 
-    <header id="header">
+    <header class="encabezado">
 
         <div class="logo">
-            <span>La Cosa del Otro Mundo</span>
+        <div>
+        <img src="titulonav.jpg" alt="la cosa del otro mundo">
+        </div>
+        <span>Escuela de danzas</span>
         </div>
 
-        <nav class="nav">
-            <a href="proyecto.html">Inicio</a>
+        <nav class="encabezado_nav">
+            <a href="index.html">Inicio</a>
             <a href="clases.html">Clases</a>
             <a href="competencias.html">Competencias</a>
         </nav>
 
-        <div class="clear"></div>
+       <div class="clear"></div>
 
     </header>
 
@@ -60,26 +39,31 @@
         <section id="inicio" class="hero">
 
             <h1>
-                <span class="subtitulo">Escuela de Danzas</span>
-                <span class="nombre-escuela">La Cosa del Otro Mundo</span>
+                Expresate a través del movimiento ritmo y la pasión.
             </h1>
 
-            <p>Expresate a través del movimiento, el ritmo y la pasión.</p>
-
+            <hr>
+<hr>
+            <footer>
         </section>
 
         <h3>¿Dónde nos encontrás?</h3>
 
-        <p>
-            Instagram:
+        <p class="contacto">
+            <img src="ig.png" alt="instagram">
             <a href="https://instagram.com" target="_blank">
                 @lacosadelotromundo.studio
             </a>
-        </p>
 
-        
-        <p>Dirección: Hipólito Yrigoyen 968, Derqui.</p>
-    <hr>
+        </p>
+        <p class="contacto"> 
+        <img src="maps.png" alt="maps">
+        <a href="https://maps.app.goo.gl/Up1MAgQswLH5aruD9"> Dirección: Hipólito Yrigoyen 968, Derqui.
+
+        </a>
+        </p>
+    
+</footer>
     </main>
 
 </body>
