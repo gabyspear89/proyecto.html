@@ -7,8 +7,9 @@
     font-size: 35px;
     color: black;
     font-family: sans-serif;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
     text-align: center;
+    
 }
 .encabezado #subtitulo{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,15 +35,24 @@
     border-radius: 40px;
     padding: 5px 10px;
 }
+.contacto {
+    text-align: center;
+}
 
 .contacto img  {
     height:auto;
     width: 30px;
 }
+.contacto a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
 
 #tabla {
   margin: 0 auto; 
   width: 80%; 
+  margin-bottom: 80px;
 }
 
 #tabla th {
@@ -68,28 +78,42 @@ to {
 transform: translateX(-100%);
 }
 }
-
 #logof {
-animation: deslizar 15s linear infinite;
-animation-delay: 0s;
-color: black;
--webkit-text-stroke:2px #ed04ca ;
-font-family: fantasy;
-font-size: 6rem;
-position: absolute;
-top: -60px;
-white-space: nowrap ;
-
+    animation: deslizar 15s linear infinite;
+    animation-delay: 0s;
+    color: black;
+    -webkit-text-stroke: 2px #ed04ca;
+    font-family: fantasy;
+    font-size: 6rem;
+    position: relative;
+    margin-top: 30px;
+    white-space: nowrap;
 }
+
+
 #inicio{
     position: relative;
+    margin-bottom: 90px;
 }
+#inicio p {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 10%;
+    color: #ddd;
+
+}
+
 .hero img{
-    width:70%;
-    height:auto;
+    width: 70%;
+    height: 600px;
+    object-fit: cover;
     display: block;
     margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+
 }
+
 
 #fondito{
     background-image: url(fondo1.jpg);
@@ -102,11 +126,12 @@ h1{
     text-shadow: 3px 1px #000000;
 }
 
-#competencia-texto{
-    text-align: center;
-    font-size: 30px;
-}
 #igm{
     border-style: solid;
     border-color: #b15cf7;
+
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
 }

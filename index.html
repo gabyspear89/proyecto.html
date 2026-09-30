@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="Escuela de danzas La cosa del otro mundo">
-    <title>La cosa del otro mundo | Escuela de Danzas</title>
-    <link rel="stylesheet" href="estilo.css">
 
+    <title>La cosa del otro mundo | Escuela de Danzas</title>
+
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body id="fondito">
@@ -18,10 +17,13 @@
     <header class="encabezado">
 
         <div class="logo">
-        <div>
-        <img src="titulonav.jpg" alt="la cosa del otro mundo">
-        </div>
-        <span id="subtitulo">Escuela de danzas</span>
+
+            <div>
+                <img src="titulonav.jpg" alt="la cosa del otro mundo">
+            </div>
+
+            <span id="subtitulo">Escuela de danzas</span>
+
         </div>
 
         <nav class="encabezado_nav">
@@ -30,56 +32,59 @@
             <a href="competencias.html">Competencias</a>
         </nav>
 
-       <div class="clear"></div>
+        <div class="clear"></div>
 
     </header>
 
     <main>
 
         <section id="inicio" class="hero">
-            
+
             <script>
-                function cambio(sw){                    
-                  if(sw == false){
-                        pic = "fondo.jpg"
-                    }else{
-                        pic ="equipo.jpg"
-                    }                    
-                    document.getElementById('igm').src = pic;                    
+                function cambio() {
+                    let img = document.getElementById('igm');
+
+                    if (img.src.includes("equipo.jpg")) {
+                        img.src = "fondo.jpg";
+                    } else {
+                        img.src = "equipo.jpg";
+                    }
                 }
             </script>
 
-        <img id="igm" onclick="cambio(false)" src="equipo.jpg" alt="equipo">
+            <img id="igm" onclick="cambio()" src="equipo.jpg" alt="equipo">
 
             <h1 id="logof">
                 Expresate a través del movimiento, ritmo y la pasión.
             </h1>
-            
 
-        
-            <hr>
-<hr>
-            <footer>
         </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
 
         <h3>¿Dónde nos encontrás?</h3>
 
-        <p class="contacto">
+        <div class="contacto">
             <img src="ig.png" alt="instagram">
+
             <a href="https://instagram.com" target="_blank">
                 @lacosadelotromundo.studio
             </a>
+        </div>
 
-        </p>
-        <p class="contacto"> 
-        <img src="maps.png" alt="maps">
-        <a href="https://maps.app.goo.gl/Up1MAgQswLH5aruD9"> Dirección: Hipólito Yrigoyen 968, Derqui.
+        <p class="contacto">
+            <img src="maps.png" alt="maps">
 
-        </a>
+            <a href="https://maps.app.goo.gl/Up1MAgQswLH5aruD9">
+                Dirección: Hipólito Yrigoyen 968, Derqui.
+            </a>
         </p>
-    
-</footer>
-    </main>
+
+    </footer>
 
 </body>
 
